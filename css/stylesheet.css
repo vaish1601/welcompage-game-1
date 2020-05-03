@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,400;1,700&display=swap');
+body{
+    font-family: sans-serif;
+    background-image:url('../images/bg.png');
+    background-size: cover;
+}
+
+.jiglogo{
+    width:60%;
+    margin-left:20%;
+    position: absolute;
+    margin-top: 4%;
+}
+h1{
+    text-align: center;
+    margin-top:55%;
+    position: absolute;
+    color: #3C7DFF;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    
+   
+}
+.sidenav {
+  height: 30%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-left: 25%;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: #8ECAF4;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+button{
+    width: 35%;
+    background: linear-gradient(180deg, #531388 0%, #160523 54.69%, #000000 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    margin-left: 35%;
+    margin-top: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+button:hover{
+    
+    background: linear-gradient(180deg, #3C7DFF 0%, #160523 84.9%, #000000 100%);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .proceed{
+      font-size: 20px;
+  }
+.user{
+      font-size: 39px;
+      margin-top: 5%;
+  }
+  h6{
+      position: absolute;
+      margin-top: 30%;
+      margin-left: 35%;
+      font-family: 'Exo 2', sans-serif;
+      color: #96AFAF;
+     
+  }
+  h6:hover{
+      color:#3C7DFF;
+  }
+  .abclogo{
+      width:10%;
+      position: absolute;
+      margin-top: 147.5%;
+      margin-left: -45%;
+  }
+  h5{
+      position: absolute;
+      margin-top:40% ;
+      margin-left: 32%;
+  }
+  @media screen and (min-width:756px){
+    body{
+        font-family: sans-serif;
+        background-image:radial-gradient(#050B2C 0%, #000000 100%);
+        background-image: url('../images/ipad bg.png')!important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+    h1{
+        text-align: center;
+        margin-top:55%;
+        position: absolute;
+        color: #3C7DFF;
+        font-size: 55px;
+        font-family: 'Poppins', sans-serif;
+    font-style:normal;
+        font-weight: 800;
+        text-align: center;
+        margin-left: 9%;
+       
+    }
+    button{
+        position: absolute;
+        margin-top: 80%;
+        margin-left: 36%;
+    }
+    .abclogo{
+        width:10%;
+        position: absolute;
+        margin-top: 121%;
+        margin-left: 25%;
+    }
+    h5{
+        position: absolute;
+        margin-top:125% ;
+        margin-left: 37%;
+        font-size: 25px;
+    }
+h6{
+    position: absolute;
+    margin-top:115% ;
+    font-size: 20px;
+    margin-left: 37%;
+    font-family: 'Exo 2', sans-serif;
+    color: #96AFAF;
+}
+
+
+  }
+  @media screen and (min-width:1000px){
+    body{
+        font-family: sans-serif;
+        background-image:radial-gradient(#050B2C 0%, #000000 100%);
+        background-image: url('../images/ipad bg.png')!important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+    h1{
+        text-align: center;
+        margin-top:60%;
+        position: absolute;
+        color: #3C7DFF;
+        font-size: 55px;
+        font-family: 'Poppins', sans-serif;
+    font-style:normal;
+        font-weight: 800;
+        text-align: center;
+        margin-left: 24%;
+       
+    }
+    button{
+        position: absolute;
+        margin-top: 70%;
+    }
+    .abclogo{
+        width:10%;
+        position: absolute;
+        margin-top: 121%;
+        margin-left: 56%;
+    }
+    h5{
+        position: absolute;
+        margin-top:125% ;
+        margin-left: 67%;
+        font-size: 25px;
+    }
+    h6{
+        position: absolute;
+        margin-top:126% ;
+        margin-left: 1%;
+        font-size:22px ;
+        font-family: 'Exo 2', sans-serif;
+        color: #96AFAF;
+
+    }
+
+  }
+@media screen and (min-width:1200px){
+    body{
+        font-family: sans-serif;
+        background-image:radial-gradient(#050B2C 0%, #000000 100%);
+        background-image: url('../images/bg.png')!important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 23%;
+        position: absolute;
+        margin-left: 30%;
+        font-size: 50px;
+        font-weight: bold!important;
+        text-transform: uppercase;
+        color: #3C7DFF;
+    }
+        
+        .jiglogo{width: 25%;height: 12%;position: absolute;margin-left: 35%;}
+    .user{font-size: 40px !important;}
+    button{
+        width: 20%;
+        background-color:black;
+        color: white;
+        padding: 14px 20px;
+        margin: 5px 0;
+        margin-left: 40%;
+        margin-top: 30%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+    }
+    button:hover{
+        
+        background: linear-gradient(180deg, #3C7DFF 0%, #160523 84.9%, #000000 100%);
+        text-decoration: none;
+      }
+      .abclogo{
+        width:5%;
+        position: absolute;
+        margin-top: 43.5%;
+        margin-left: 69%;
+    }
+    h5{
+        position: absolute;
+        margin-top:45% ;
+        margin-left: 77%;
+        font-size: 25px;
+    }
+    h6{
+        position: absolute;
+        margin-top:45% ;
+        margin-left: 1%;
+        font-size:20px ;
+        font-family: 'Exo 2', sans-serif;
+        color: #96AFAF;
+
+    }
+    h6:hover{
+        color:#3C7DFF;
+    }
+}
